@@ -10,8 +10,8 @@ function App() {
     <div className="bg-blue-950 h-screen bg-gradient-to-r from-indigo-900">
       <NavBar />
       <Home />
-      {/* <Project />
-      <About />
+      <Project />
+      {/* <About />
       <Blog /> */}
     </div>
   );
