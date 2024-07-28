@@ -1,3 +1,5 @@
+import profilePicture from "../assets/profile-pic.png";
+
 export const Home = () => {
   return (
     <div>
@@ -12,7 +14,7 @@ export const Home = () => {
             <span className="text-xl">An aspiring developer</span>
           </div>
         </div>
-        <div className="text-white">Image</div>
+        <img className="h-[200px] m-10" src={profilePicture} alt="" />
       </div>
     </div>
   );
