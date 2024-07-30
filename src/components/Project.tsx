@@ -4,9 +4,16 @@ export const Project = () => {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="text-white font-bold text-2xl text-left box-border w-[650px] border-b-4 border-white ">
+        <div
+          id="Projects"
+          className="text-white font-bold text-2xl text-left box-border w-[650px] border-b-4 border-white "
+        >
           PROJECTS
         </div>
+      </div>
+      <div className="flex justify-center mt-10 gap-10">
+        <ProjectCard />
+        <ProjectCard />
       </div>
       <div className="flex justify-center mt-10 gap-10">
         <ProjectCard />

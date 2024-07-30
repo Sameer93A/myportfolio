@@ -15,10 +15,14 @@ export const NavBar = () => {
           <div className="ml-5">Home</div>
         </button>
         <button>
-          <div className="ml-5">Projects</div>
+          <div className="ml-5 scroll-smooth">
+            <a href="#Projects"></a> Projects
+          </div>
         </button>
         <button>
-          <div className="ml-5">About</div>
+          <div className="ml-5">
+            <a href="#About">About </a>
+          </div>
         </button>
         <button>
           <div className="ml-5">Blog</div>

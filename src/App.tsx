@@ -7,12 +7,12 @@ import { Blog } from "./components/Blog";
 
 function App() {
   return (
-    <div className="bg-blue-950 h-screen bg-gradient-to-r from-indigo-900">
+    <div className="bg-blue-950 min-h-screen bg-gradient-to-r from-indigo-900">
       <NavBar />
       <Home />
       <Project />
-      {/* <About />
-      <Blog /> */}
+      <About />
+      {/* <Blog /> */}
     </div>
   );
 }
